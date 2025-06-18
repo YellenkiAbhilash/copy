@@ -20,7 +20,7 @@ def index():
     if request.method == 'POST':
         to_number = request.form['phone']
         call = client.calls.create(
-            url='https://hr-je85.onrender.com/voice?q=0',
+            url='https://copy-3ho4.onrender.com/voice?q=0',
             to=to_number,
             from_=TWILIO_PHONE_NUMBER
         )
