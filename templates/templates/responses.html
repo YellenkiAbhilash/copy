@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Responses</title></head>
+<body>
+  <h1>Collected Responses</h1>
+  <ul>
+    {% for r in responses %}
+      <li><b>{{ r.question }}</b><br>Answer: {{ r.answer }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
